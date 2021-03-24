@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Piedra Papel Tijeras</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Piedra Papel Tijeras</h1>
+        <!--CHOISE OPTIONS-->
+        <div class="opciones">
+            <input type="image" src="img/piedra.svg" alt="piedra" id="piedra" onclick="getOption(this.id)">
+            <input type="image" src="img/papel.svg" alt="papel" id="papel" onclick="getOption(this.id)">
+            <input type="image" src="img/tijera.svg" alt="tijera" id="tijera" onclick="getOption(this.id)">
+        </div>
+        <!--DISPLAY RESULTS-->
+        <div class="resultados">
+            <input type="image" src="" alt="" id="user-choise">
+            <input type="image" src="" alt="" id="computer-choise">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
