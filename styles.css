@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: cadetblue;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    background: cornsilk;
+    width: 90%;
+    margin: 70px auto;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.container h1{
+    text-align: center;
+}
+.opciones, .resultados{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.opciones input, .resultados input{
+    padding: 15px;
+    width: 15em;
+}
+.opciones input:hover{
+    background-color: greenyellow;
+    border: 5px solid black;
+    border-radius: 15px;
+}
