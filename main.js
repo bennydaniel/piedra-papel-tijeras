@@ -65,3 +65,8 @@ const gameLogic = () => {
         }
     }
 }
+/* Funcion de receteo */
+const resetGame = () => {
+    options.style.display = "flex";
+    show_selections.style.display = 'none';
+}
