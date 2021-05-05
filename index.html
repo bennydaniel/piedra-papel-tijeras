@@ -15,7 +15,7 @@
         <h1>Piedra Papel Tijeras</h1>
         <h2>Elige una opción</h2>
         <!--CHOISE OPTIONS-->
-        <div class="opciones">
+        <div class="opciones" id="options">
             <input type="image" src="img/piedra.svg" alt="piedra" id="piedra" onclick="getOption(this.id)">
             <input type="image" src="img/papel.svg" alt="papel" id="papel" onclick="getOption(this.id)">
             <input type="image" src="img/tijera.svg" alt="tijera" id="tijera" onclick="getOption(this.id)">
@@ -25,6 +25,7 @@
             <input type="button" value="Reiniciar" id="reset" onclick="resetGame()">
             <input type="image" class="buttons" title="tu eleccion" id="user-choise">
             <input type="image" class="buttons" title="eleccion de la computadora" id="computer-choise">
+            <h1 id="result_label"></h1>
         </div>
     </div>
     <script src="main.js"></script>
